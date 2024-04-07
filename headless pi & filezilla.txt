@@ -1,0 +1,30 @@
+connect cardreader to machine
+download rasberrypi imager
+setup rasbarrypi imager
+open rasbarry pi imager
+choose os (first one)
+choose storage (usb device)
+click on setting icon
+set host name, set usrename and password, set mobile's hpotspot name and mnobile's hotspot password, set wireless lan country
+click on srervices and check enable ssh
+click on write, click on yes, then continue
+eject cardreader
+insert sd card in rasberry pi kit
+connect rasberry pi kit to machine
+open cmd
+type ping (rasberrypi host name) if this doesn't work type ping (ip address of rasberry pi)
+ssh <Username that you gave for kit>@<Host name/ip address>  click enter
+type yes
+type password
+
+practical sftp
+download and setup filezilla
+connect rasberry pi kit to machine
+open cmd, type ping hostname/ip
+type ssh <Username that you gave for kit>@<Host name/ip address>  click enter
+open filezilla and type rasberry pi hostname/ip (in that box, put sftp:// at start e.g. sftp://ip address)
+put username and password
+put port no 22
+click on quick connect, click on ok
+to transfer file from local machine to raspberry pi kit server
+then right click on any file from local machine and select upload
